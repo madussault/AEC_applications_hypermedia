@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BelleMaison - Infos Clients</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" language="javascript" src="infosclients.js"></script>
+</head>
+
+<body>
+  <ul id="menu">
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="typesdeproprietes.html">Nos Propriétés</a></li>
+    <li><a href="calculhypotheque.html">Calcul de l'hypothèque</a></li>
+    <li><a class="active" href="infosclients.html">Infos Clients</a></li>
+  </ul>
+
+  <h1 class="titre">Demande d'informations</h1>
+
+  <form name="formulaire" action="" method="post">
+    <ul>
+      <li>
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required />
+      </li>
+      <li>
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required />
+      </li>
+      <li>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+      </li>
+      <li>
+        <label for="adresse">Adresse:</label>
+        <input id="adresse" name="adresse">
+      </li>
+      <li>
+        <label for="datenaissance">Date de naissance:</label>
+        <input type="date" name="datenaissance" id="datenaissance">
+      </li>
+      <li class="button">
+        <button class="submit"
+          onclick="confirmer(this.form)">Soumettre</button>
+        <button class="reinitialiser" type="reset">Réinitialiser</button>
+      </li>
+    </ul>
+  </form>
+</body>
+
+</html>

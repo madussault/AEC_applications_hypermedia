@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BelleMaison - Calcul de l'hypothèque</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" language="javascript" src="calculhypotheque.js"></script>
+</head>
+
+<body>
+  <ul id="menu">
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="typesdeproprietes.html">Nos Propriétés</a></li>
+    <li><a class="active" href="calculhypotheque.html">Calcul de
+        l'hypothèque</a></li>
+    <li><a href="infosclients.html">Infos Clients</a></li>
+  </ul>
+
+  <h1 class="titre">Calcul de l'hypothèque</h1>
+
+  <form name ="formulaire" action="" method="post">
+    <ul>
+      <li>
+        <label for="montant">Montant de l'emprunt:</label>
+        <input type="text" id="montant" name="montant" required />
+      </li>
+      <li>
+        <label for="interet">Taux d'intérêt:</label>
+        <input type="text" id="interet" name="interet" required />
+      </li>
+      <li>
+        <label for="terme">Terme:</label>
+        <input type="date" name="terme" id="terme">
+      </li>
+      <li class="button">
+        <button class = "submit" type="submit" onclick="calculateTax()">Calculer</button>
+      </li>
+    </ul>
+  </form>
+</body>
+
+</html>

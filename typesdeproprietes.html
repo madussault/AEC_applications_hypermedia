@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BelleMaison - Nos Maisons</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" language="javascript" src="typesdeproprietes.js"></script>
+</head>
+
+<body>
+  <ul id="menu">
+    <li><a href="menu.html">Menu</a></li>
+    <li><a class="active" href="typesdeproprietes.html">Nos Propriétés</a></li>
+    <li><a href="calculhypotheque.html">Calcul de l'hypothèque</a></li>
+    <li><a href="infosclients.html">Infos Clients</a></li>
+  </ul>
+
+  <h1 class="titre">Nos propriétés</h1>
+
+  <ul id="propriétés_listing">
+    <li>
+      <h2>Maison unifamiliale</h2>
+      <div class="image">
+        <a href="#" onclick="affiche('unifamiliale.jpg');"><img src="unifamiliale.jpg" alt="Maison unifamiliale"></a>
+      </div>
+      <div class="prix">
+        <p>500 000$</p>
+      </div>
+    </li>
+    <li>
+      <h2>Condos</h2>
+      <div class="image">
+        <a href="#" onclick="affiche('condos.jpg');"><img src="condos.jpg" alt="Condos"></a>
+      </div>
+      <div class="prix">
+        <p>300 000$</p>
+      </div>
+    </li>
+    <li>
+      <h2>Semi-détaché</h2>
+      <div class="image">
+        <a href="#" onclick="affiche('semi-détaché.jpg');"><img src="semi-détaché.jpg" alt="Semi-détaché"></a>
+      </div>
+      <div class="prix">
+        <p>350 000$</p>
+      </div>
+    </li>
+    <li>
+      <h2>Maison de ville</h2>
+      <div class="image">
+        <a href="#" onclick="affiche('maison-de-ville.jpg');"><img src="maison-de-ville.jpg" alt="Maison unifamiliale"></a>
+      </div>
+      <div class="prix">
+        <p>400 000$</p>
+      </div>
+    </li>
+    <li>
+      <h2>Duplex Jumelé</h2>
+      <div class="image">
+        <a href="#" onclick="affiche('duplex-jumelé.jpg');"><img src="duplex-jumelé.jpg" alt="Duplex Jumelé"></a>
+      </div>
+      <div class="prix">
+        <p>350 000$</p>
+      </div>
+    </li>
+    <li>
+      <h2>Triplex</h2>
+      <div class="image">
+        <a href="#" onclick="affiche('triplex.jpg');"><img src="triplex.jpg" alt="Triplex"></a>
+      </div>
+      <div class="prix">
+        <p>800 000$</p>
+      </div>
+    </li>
+  </ul>
+</body>
+
+</html>

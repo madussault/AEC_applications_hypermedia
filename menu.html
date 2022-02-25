@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BelleMaison - Menu</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" language="javascript" src="menu.js"></script>
+</head>
+
+<body onload="afficheTemps()" ;>
+
+  <ul id="menu">
+    <li><a class="active" href="menu.html">Menu</a></li>
+    <li><a href="typesdeproprietes.html">Nos Propriétés</a></li>
+    <li><a href="calculhypotheque.html">Calcul de l'hypothèque</a></li>
+    <li><a href="infosclients.html">Infos Clients</a></li>
+  </ul>
+
+  <h1 class="titre">Menu</h1>
+
+  <table id="temps" border="1">
+    <thead>
+      <tr>
+        <th colspan="2">La date</th>
+      </tr>
+    </thead>
+    <tbody <tr>
+      <td>L'année:</td>
+      <td id="annee"></td>
+      </tr>
+      <tr>
+        <td>Le mois:</td>
+        <td id="month"></td>
+      </tr>
+      <tr>
+        <td>Le jour:</td>
+        <td id="day"></td>
+      </tr>
+      <tr>
+        <td>L'heure:</td>
+        <td id="hour"></td>
+      </tr>
+      <tr>
+        <td>Les minutes:</td>
+        <td id="minutes"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

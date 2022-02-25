@@ -1,0 +1,176 @@
+body {
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+  color: #776BFF;
+}
+
+.button {
+  text-align: center;
+}
+
+/* menu */
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6DB9F8;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#menu li a:hover:not(.active) {
+  background-color: #1A92F4;
+}
+
+#menu .active {
+  background-color: #776BFF;
+}
+
+table {
+  font-size: 40px;
+  border-color: white;
+}
+
+table th {
+  color: white;
+  background-color: #1A92F4;
+}
+
+table tr {
+  background-color: #41A5F6;
+}
+
+table {
+  color: white;
+  background-color: #41A5F6;
+}
+
+table td[id] {
+  color: #41A5F6;
+  background-color: white;
+}
+
+table td {
+  padding: 5px;
+}
+
+/* infosclients et calculhypotheque form et table de la date*/
+form, table{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+form {
+  margin: auto;
+  padding: 1em;
+}
+
+form ul {
+  list-style: none;
+}
+
+form li {
+  margin-top: 1em;
+}
+
+form label {
+  display: block;
+}
+
+form input {
+  display: block;
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+form button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.submit {
+  background-color: #6DB9F8;
+}
+
+.submit:hover:not(.active) {
+  background-color: #1A92F4;
+}
+
+.reinitialiser {
+  background-color: red;
+}
+
+.reinitialiser:hover:not(.active) {
+  background-color: #CC0011;
+}
+
+/* Liste des propriétés*/
+#propriétés_listing {
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1100px;
+}
+
+#propriétés_listing h2 {
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  color: white;
+}
+
+#propriétés_listing li {
+  margin: 20px;
+  border: 1px solid #1A92F4;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1A92F4;
+}
+
+#propriétés_listing .prix {
+  margin-top: auto;
+  border-top: 1px solid #1A92F4;
+  padding: 5px;
+  background-color: white;
+}
+
+#propriétés_listing .prix p {
+  color: #1A92F4;
+  font-size: 20px;
+}
+
+#propriétés_listing .image {
+  padding: 10px;
+  background-color: white;
+}
+
+#propriétés_listing .image img {
+  padding: 10px;
+  height: 266.66;
+  width: 400px;
+}
