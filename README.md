@@ -1,2 +1,2 @@
 # AEC_applications_hypermedia
-Formation project
+Project that we had to do for our formation. The objects of learning was HTML, CSS, javascript.
